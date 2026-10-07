@@ -5,27 +5,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Naves Espaciales">
-    <meta name="keywords" content="naves; espaciales; star; wars; trek">
+    <meta name="description" content="Formulario">
+    <meta name="keywords" content="formulario; form">
     <meta name="author" content="M.V.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#000000">
     <title>
-        Naves, página secundaria.
+        Formulario, página secundaria.
     </title>
+    <link rel="stylesheet" href="../css/form.css">
 </head>
 <body>
    <header>
         <h1>
-            Naves Espaciales.
+            Formulario.
         </h1>
         <p>
-            Los mejores videos de naves espaciales!
+            Rellena el formulario correspondiente.
         </p>
    </header> 
    <main>
         <section>
-            
+            <label>
+                Nombre:
+            </label>
+            <input type="text" placeholder="Ej: María" required>
+            <br>
+
+            <label>
+                Contraseña:
+            </label>
+            <input type="password" placeholder="Ej: 12345678" required>
+            <br>
+
+            <label>
+                Fecha de Nacimiento:
+            </label>
+            <input type="date" required>
+            <br>
+
+            <button type="submit">
+                Enviar Datos
+            </button>
+            <br>
+
             <a href="./index.html">
                 <button type="button">
                     Volver a la página anterior.
